@@ -131,7 +131,7 @@ public class JogoPilhas {
                         }
                     }
                 } else if (origem == 2 && destino == 1) {
-                    if (pilha1.isEmpty()) {
+                    if (pilha2.isEmpty()) {
                         System.out.println("A pilha esta vazia, escolha outra");
                     } else {
                         movimentar(pilha2, pilha1);
