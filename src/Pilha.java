@@ -10,7 +10,7 @@ public class Pilha<Integer> {
     // Método para remover o elemento do topo da pilha
     public int remover() {
         if (estaVazia()) {
-            throw new IllegalStateException("A pilha está vazia");
+            System.out.println("A pilha está vazia");
         }
         int elementoRemovido = topo.getValor();
         topo = topo.getProximo();
